@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3' , sans-serif;
+    transition: all 0.3s;
+}
+a{
+    color: #607CE6;
+    text-decoration: none;
+}
+a:hover{
+    color: #4a60ad;
+    transform: scale(1.02);
+}
+.content {
+    padding: 32px 20%;
+}
+.flex{
+    display: flex;
+}
+.top{
+    margin-top: 50px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 28px;
+}
+/* Основная часть */
+.logo{
+    width: 180px;
+    height: 38px;
+}
+.topHeader{
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.email, .phone{
+    text-align: end;
+}
+.email{
+    margin-right: 50px;
+}
+.email_text, .phone_text{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: end;
+    cursor: pointer;
+}
+.email_text{
+    text-decoration: underline;
+}
+/* Меню */
+.menu{
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.menu_item{
+    color: black;
+}
+.menu_item:hover{
+    color: #8a8585;
+}
+.menu_call{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.menu_call img{
+    margin-right: 5px;
+}
+/* Заголовок */
+.introduction_text{
+    margin-bottom: 20px;
+}
+.introduction_heading{
+    font-size: 60px;
+    font-weight: 700;
+}
+.introduction_description{
+    margin: 50px 100px;
+}
+/* О предприятии */
+.description_img{
+    width: 550px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+}
+.description_text{
+    height: 550px;
+}
+.description_text div{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+/* Продукция */
+.products_list{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.product{
+    width: 300px;
+    height: 355px;
+    background-color: #F5F5F5;
+    padding: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.product img{
+    width: 50%;
+    height: auto;
+}
+.product_info{
+    position: absolute;
+    bottom: 20px;
+}
+/* Новости */
+.news_item{
+    width: 350px;
+    height: 458px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.news_item img{
+    width: 100%;
+    height: auto;
+}
+.new_info{
+    padding: 15px;
+    height: 190px;
+    position: relative;
+}
+.news_heading{
+    font-size: 20px;
+}
+.new_end{
+    width: 320px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 15px;
+}
+.new_date{
+    color: #888888;
+}
+/* Подвал */
+footer{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.topFooter{
+    display: flex;
+    gap: 420px;
+}
+
+.footerMenu{
+    gap: 57px;
+}
+
+.footerMenu a{
+    color: white;
+}
+
+.company{
+    color: white;
+    padding: 73px 0 24px;
+    font-size: 14px;
+}
